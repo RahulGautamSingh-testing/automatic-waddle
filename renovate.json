@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>renovatebot/.github"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["helm"],
+      "extractVersion": "^v(?<version>.*)$"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "extends": ["github>renovatebot/.github"],
   "packageRules": [
     {
-      "matchPackageNames": ["helm"],
+      "packageNames": ["helm"],
       "extractVersion": "^v(?<version>.*)$"
     }
   ]
